@@ -1,0 +1,40 @@
+
+table, th,td{
+  border:3px solid;
+  border-collapse:collapse;
+  border-style: groove;
+  width: 50%;
+
+}
+th {
+  background-color: rgb(180, 180, 180, 0.5);
+
+}
+td {
+  background-color: blanchedalmond;
+}
+body {
+  background-color: lightcyan;
+}
+h2 {
+  color: red;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size:30px;
+}
+
+#para1 {
+  text-align: center;
+  color:red;
+}
+
+#tabela1{
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+
+
