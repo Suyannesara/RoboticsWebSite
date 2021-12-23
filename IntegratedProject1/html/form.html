@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--FONTS LINK-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <!--LINK CSS-->
+  <link rel="stylesheet" href="/styles/navbar.css">
+  <link rel="stylesheet" href="/styles/footer.css">
+  <link rel="stylesheet" href="/styles/form.css">
+  
+
+  <!--LINK JS-->
+  <script type="text/javascript" src="/scripts/timeform.js"></script>
+  
+</head>
+
+<body>
+
+  <canvas></canvas>
+
+  <nav class="dp-menu">
+    
+    <ul>
+      <li id="logonavbar"><a href="#"><img src="/Images/LogoColorida.svg" alt="Website Logo"></a></li>
+
+      <li class="buttonhover listbar"><a href="#">HOME</a>
+        <ul class="secondul">
+          <li class="buttonhover listbar"><a href="#">INSCREVA-SE</a></li>
+          <li class="buttonhover listbar"><a href="#">EDITAL</a></li>
+        </ul>
+      </li>
+      <li class="buttonhover listbar"><a href="#">F1 IN SCHOOLS</a></li>
+      <li class="buttonhover listbar"><a href="#">FLL</a>
+        <ul class="secondul">
+          <li class="buttonhover listbar"><a href="#">BISC8</a></li>
+          <li class="buttonhover listbar"><a href="#">BONO</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="formcontainer">
+    <h1>Inscrever-se</h1> <br>
+    <p>Antes de se inscrever, certifique-se de que você leu o edital e as instruções sobre vagas e processo seletivo. Você pode ler o edital clicando aqui:</p>
+
+    <form action="submit">
+      <div>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name"> 
+      </div>
+
+      <div class="formcontacts">
+        <div class="wppnumber">
+        <label for="wppnumber">Número de Whatssapp</label> <br>
+        <input type="tel">
+        </div>
+
+        <div class="email">
+        <label for="e-mail">E-mail institucional</label> <br>
+        <input type="email" name="email">
+        </div>
+      </div>
+
+      <div class="otherinfo">
+        <div>
+        <label for="role">Vaga a qual está se candidatando</label><br>
+        <select id="">
+            <option value="blank"></option>
+            <option value="mentor">Mentor</option>
+            <option value="competidor">Competidor</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="birthdate">Data de nascimento</label><br>
+        <input type="date" name="birthdate"> <br>
+      </div>
+
+      <div>
+        <label for="birthdate">Série/Turma</label><br>
+        <select id="">
+            <option value="blank"></option>
+            <option value="3°A eletrotécnica">3°A eletrotécnica</option>
+            <option value="competidor">2°CN vespertino</option>
+            <option value="competidor">1°Eletrotécnica vespertino</option>
+        </select>
+      </div>
+      </div>
+  
+      <div class="weekdays">
+        <div>
+          <button class="weekbutton"><a href="">D</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+
+        <div>
+          <button  class="weekbutton"><a href="">S</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+
+        <div>
+          <button class="weekbutton"><a href="">T</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+
+        <div>
+          <button class="weekbutton"><a href="">Q</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+
+        <div>
+          <button class="weekbutton"><a href="">Q</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+        <div>
+          <button class="weekbutton"><a href="">S</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+
+        <div>
+          <button class="weekbutton"><a href="">S</a></button>
+          <p>de <input class="time" type="time"></p>
+          <p> às <input class="time" type="time"></p>
+          <button class="addtime" onclick="addTime()">+</button>
+        </div>
+      </div>
+
+      <div>
+        <label for="disponibility">Alguma informação a mais sobre disponibilidade que queira dizer?</label><br>
+        <input type="text"><br>
+      </div>
+
+      <div>
+        <label for="disponibility">Sua hora de nos dizer um pouco mais sobre você! :). Use o campo abaixo para responder a pergunta: Por que você quer entrar na robótica?</label> <br>
+        <input type="text"><br>
+      </div>
+
+      <div>
+        <label for="disponibility">Ótimo! Agora deixe-nos conhecê-lo(a) um pouco mais. Grave um vídeo ou áudio falando sobre você, seus hobbies, rotina, paixões e o que mais você quiser que saibamos sobre você! Suba o vídeo para o YouTube e cole o link a seguir.
+        Atenção: antes de enviar o formulário, certifique-se de que o link do seu vídeo/áudio está funcionando corretamente.</label><br>
+        <input type="text">
+      </div>
+
+      <button id="submit" type="submit">Enviar</button>
+    </form>
+  </div>
+
+
+  <footer>
+    <div id="footerdiv">
+      <div class="contacts">
+        <h3>CONTATOS</h3> 
+        <div class="logos">
+          <img src="/Images/Logob8.svg" alt="Logo b8">
+          <img src="/Images/LogoAxis.jpg" alt="Logo Axis">
+          <img src="/Images/LogoBono.png" alt="Logo Bono">
+        </div>
+        <div class="emailinstagram">
+          <p> @bisc8.df 
+          bisc8df@gmail.com
+          <br> <br></p>
+          <p>@axisteam.br 
+          teamaxiscontact@gmail.com <br> <br></p>
+          <p> @bonodf 
+          equipebono@gmail.com</p>
+          
+        </div>
+      </div>
+      <div class="location">
+        <h3>CENTRO DE ENSINO <br> SOBRADINHO</h3><br>
+        <p>Quadra 13, Área Especial 3, Lotes A/ <br> F, Sobradinho – CEP: 73040-130
+        </p>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <p>Copyright © Todos os direitos reservados | Feito com por <img src="/Images/Footerheart.png" alt="Heart image"> BISC8/AXIS/BONO (Suyanne, haha)</p>
+    </div>
+    
+  </footer> 
+  
+</body>
+</html>
