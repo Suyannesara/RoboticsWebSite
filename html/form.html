@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="/styles/navbar.css">
   <link rel="stylesheet" href="/styles/footer.css">
   <link rel="stylesheet" href="/styles/form.css">
-  
 
   <!--LINK JS-->
   <script type="text/javascript" src="/scripts/timeform.js"></script>
@@ -50,7 +49,7 @@
     <h1>Inscrever-se</h1> <br>
     <p>Antes de se inscrever, certifique-se de que você leu o edital e as instruções sobre vagas e processo seletivo. Você pode ler o edital clicando aqui:</p>
 
-    <form action="submit">
+    <form method="POST" action="processa.php" >
       <div>
         <label for="name">Nome</label>
         <input type="text" id="name" name="name"> 
@@ -59,7 +58,7 @@
       <div class="formcontacts">
         <div class="wppnumber">
         <label for="wppnumber">Número de Whatssapp</label> <br>
-        <input type="tel">
+        <input type="tel" name="wppnumber">
         </div>
 
         <div class="email">
@@ -71,7 +70,7 @@
       <div class="otherinfo">
         <div>
         <label for="role">Vaga a qual está se candidatando</label><br>
-        <select id="">
+        <select name="role">
             <option value="blank"></option>
             <option value="mentor">Mentor</option>
             <option value="competidor">Competidor</option>
@@ -85,7 +84,7 @@
 
       <div>
         <label for="birthdate">Série/Turma</label><br>
-        <select id="">
+        <select name="class">
             <option value="blank"></option>
             <option value="3°A eletrotécnica">3°A eletrotécnica</option>
             <option value="competidor">2°CN vespertino</option>
@@ -93,7 +92,7 @@
         </select>
       </div>
       </div>
-  
+  <!--
       <div class="weekdays">
         <div>
           <button class="weekbutton"><a href="">D</a></button>
@@ -143,24 +142,24 @@
           <button class="addtime" onclick="addTime()">+</button>
         </div>
       </div>
-
+-->
       <div>
         <label for="disponibility">Alguma informação a mais sobre disponibilidade que queira dizer?</label><br>
-        <input type="text"><br>
+        <textarea name="disponibility" cols="30" rows="10"></textarea>
       </div>
 
       <div>
         <label for="disponibility">Sua hora de nos dizer um pouco mais sobre você! :). Use o campo abaixo para responder a pergunta: Por que você quer entrar na robótica?</label> <br>
-        <input type="text"><br>
+        <textarea name="InfoAdd" cols="30" rows="10"></textarea>
       </div>
 
       <div>
         <label for="disponibility">Ótimo! Agora deixe-nos conhecê-lo(a) um pouco mais. Grave um vídeo ou áudio falando sobre você, seus hobbies, rotina, paixões e o que mais você quiser que saibamos sobre você! Suba o vídeo para o YouTube e cole o link a seguir.
         Atenção: antes de enviar o formulário, certifique-se de que o link do seu vídeo/áudio está funcionando corretamente.</label><br>
-        <input type="text">
+        <input type="url" name="video" cols="30" rows="10"></input>
       </div>
 
-      <button id="submit" type="submit">Enviar</button>
+      <input id="submit" type="submit" value="Enviar"></input>
     </form>
   </div>
 

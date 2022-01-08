@@ -51,6 +51,8 @@ canvas{
   background: #EDEDED;
   border: 2px solid #C4C4C4;
   box-sizing: border-box;
+
+  font-size: 18px;
 }
 
 .formcontainer div #name{
@@ -61,6 +63,12 @@ form .formcontacts{
   display: flex;
 
   justify-content: space-between;
+}
+
+form div textarea{
+  width: 100%;
+
+  font-size: 18px;
 }
 
 .formcontacts .wppnumber{
@@ -146,7 +154,7 @@ form .formcontacts{
 }
 
 
-.formcontainer #submit{
+.formcontainer input #submit{
   width: 239px;
   height: 72px;
   margin-top: 42px;

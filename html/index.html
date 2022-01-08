@@ -1,62 +1,152 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<!-- Tag inicial do HTML -->
-
+<html lang="en">
 <head>
-  <!-- Tag de cabeçalho do documento HTML -->
-  <title>Meu primeiro site </title> <!-- Tag de titulo-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--FONTS LINKS-->
+   <!--FONTS LINK-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!--CSS LINKS-->
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/navbar.css">
+  <link rel="stylesheet" href="/styles/footer.css">
+
 </head>
-
 <body>
+  <nav class="dp-menu">
+    
+    <ul>
+      <li id="logonavbar"><a href="#"><img src="/Images/LogoVerdeB.svg" alt="Website Logo"></a></li>
 
-  <h1> Página principal </h1>
-
-  <h2> Menu </h2>
-
-  <br> <a href="/html/index.html"> Página Principal </a>
-
-  <br> <a href="/html/imagens.html"> Imagens </a>
-
-  <br> <a href="/html/videos.html"> Vídeos </a>
-
-  <p title="Importância de Desenvolvimento" style="color:blue;
-font-size:30px;
-background-color:powderblue;
-font-family:arial;
-text-align:center;">Site da empresa Tecnologia Vita.</p>
-
-
-  <p>
-    Tecnologia de ponta na hora de desenlvolver
-    sistemas webs com a Tecnologia VITA.
-  </p>
-
-  <hr>
-
-  <p>
-    Empresa que proporciona qualidade para
-    teus clientes no mundo todo.
-  </p>
-
-  <hr>
-
-  <p>
-    Venha conhecer nosso produtos e serviços de
-    Tecnologia da Informação em Sistemas Webs</p>
-
-  <hr>
-
-  <p>
-  <pre>Somos quem você precisa.
-<br>Crescimento adminstrativo.
-<br>Tecnologias Webs.
-</pre>
-  </p>
-  <hr>
+      <li class="buttonhover listbar"><a href="#">SELETIVA</a>
+        <ul class="secondul">
+          <li class="buttonhover listbar"><a href="/html/form.html">INSCREVA-SE</a></li>
+          <li class="buttonhover listbar"><a href="#">EDITAL</a></li>
+        </ul>
+      </li>
+      <li class="buttonhover listbar"><a href="#">F1 IN SCHOOLS</a></li>
+      <li class="buttonhover listbar"><a href="#">FLL</a>
+        <ul class="secondul">
+          <li class="buttonhover listbar"><a href="#">BISC8</a></li>
+          <li class="buttonhover listbar"><a href="#">BONO</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 
 
+  <!-- Header with image -->
+  <header class="bgimg">
+    <div class="container">
+      <img src="/Images/LogoVerdeB.svg" alt="Title Logo"><br>
+      <img id="carroselballs" src="/Images/carroselballs.svg" alt="Carrosel balls">
+      <p>Inscrições abertas para nosso processo seletivo!</p>
+
+      <button class="buttonhover" ><a href="/html/form.html">INSCREVER-SE</a></button>
+    </div>
+  </header>
+
+  
+  <section class="competitions">
+    <div class="section1bg f1inschools frontbg">
+      <div class="section1text">
+        <h2 class="section1title">F1 in <br> schools</h2>
+        <button id="f1button" class="section1button"><a href="">CONHEÇA AS EQUIPES</a></button>
+        </div>
+    </div>
+<!--
+    <div class="section1bg backbg">
+      <div class="section1text">
+        <h2 class="section1title">F1 in <br> schools</h2>
+        <p>O campeonato, que faz parte de um projeto internacional realizado pela própria Fórmula 1, reproduz desafios profissionais envolvidos em uma corrida de carros do início ao fim, desde a criação da escuderia até o enfrentamento nas pistas. <br>
+
+        Aqui, não é só a velocidade que conta: é necessário utilizar diversos recursos tecnológicos para projetar, modelar e testar um protótipo de um carro de F1. Nessa preparação para o mundo profissional, os jovens competidores precisam pensar em marketing, patrocínio, plano de negócios e estratégias em mídias sociais.
+        </p>
+        <button id="f1button" class="section1button"><a href="">CONHEÇA AS EQUIPES</a></button>
+        </div>
+    </div>
+-->
+    <div id="FLL" class="section1bg frontbg">
+      <div class="section1text">
+        <h2 class="section1title">First LEGO<br>League</h2>
+        <button id="fllbutton" class="section1button"><a href="">CONHEÇA AS EQUIPES</a></button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="news">
+    <div id="bignews" >
+      <h2 class="section1title">Vencem torneio de robótica em São Paulo!</h2>
+    </div>
+
+    <div id="littlenews" >
+      <div id="littlenews1" >
+        <h2 class="section1title">Bueiro tecnológico tem coletor de resíduos</h2>
+      </div>
+      <div id="littlenews2">
+        <h2 >Vencem torneio de robótica em São Paulo!</h2>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="awards">
+    <div id="awards1">
+      <h1>+10</h1>
+      <p>premiações <br> e troféus em</p>
+    </div>
+    <div id="awards2">
+      <ul>
+        <li>Pesquisa </li><br>
+        <li>Design de robô </li><br>
+        <li>Champions</li>
+      </ul>
+    </div>
+ 
+    <div id="trophiesimg">
+    </div>
+  </section>
+
+
+  <footer>
+    <div id="footerdiv">
+      <div class="contacts">
+        <h3>CONTATOS</h3> 
+        <div class="logos">
+          <img src="/Images/Logob8.svg" alt="Logo b8">
+          <img src="/Images/LogoAxis.jpg" alt="Logo Axis">
+          <img src="/Images/LogoBono.png" alt="Logo Bono">
+        </div>
+        <div class="emailinstagram">
+          <p> @bisc8.df 
+          bisc8df@gmail.com
+          <br> <br></p>
+          <p>@axisteam.br 
+          teamaxiscontact@gmail.com <br> <br></p>
+          <p> @bonodf 
+          equipebono@gmail.com</p>
+          
+        </div>
+      </div>
+      <div class="location">
+        <h3>CENTRO DE ENSINO <br> SOBRADINHO</h3><br>
+        <p>Quadra 13, Área Especial 3, Lotes A/ <br> F, Sobradinho – CEP: 73040-130
+        </p>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <p>Copyright © Todos os direitos reservados | Feito com por <img src="/Images/Footerheart.png" alt="Heart image"> BISC8/AXIS/BONO (Suyanne, haha)</p>
+    </div>
+    
+  </footer> 
 </body>
-
-
-
 </html>
+
