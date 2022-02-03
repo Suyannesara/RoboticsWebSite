@@ -154,7 +154,7 @@ form div textarea{
 }
 
 
-.formcontainer input #submit{
+.formcontainer #submit{
   width: 239px;
   height: 72px;
   margin-top: 42px;
