@@ -17,7 +17,7 @@
 > However, the enrollment process for students interested in joining the teams is not automated and depends on external servers. Considering this problem and understanding that teams also need a means of advertising to acquire sponsorships, the Robotics SESI website was created as a possible solution.</p>
 
 > ## CAP2 - Features
-> - [ x ] Subscription of interesteds
+> - [x] Subscription of interesteds
 
 
 
