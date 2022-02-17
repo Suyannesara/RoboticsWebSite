@@ -6,7 +6,7 @@
 </h4> 
 <br>
 <h4 align="center">
- ⚠️Created to run only in brwsers
+ ⚠️Created to run only in browsers
 </h4> 
 <h4 align="center">
  🚧Project status: Developing🔨
