@@ -160,20 +160,19 @@ body{
   height: 544px;
   margin-top: 70px;
 
-  background: turquoise;
-
+  background-color: black;
 }
 
 .news div{
-
   width: 50%;
 }
 
-.news #bignews{
+#bignews{
   background-image: url(/Images/news1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.6;
 }
 
 .news #littlenews #littlenews1{
@@ -184,6 +183,8 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  opacity: 0.6;
 }
 
 .news #littlenews #littlenews2{
@@ -194,16 +195,32 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  opacity: 0.6;
 }
 
+.news #bignews:hover,
+#littlenews #littlenews1:hover,
+#littlenews #littlenews2:hover{
+  cursor: pointer;
+
+  opacity: 1;
+  transform: scale(1.01);
+  transition:.5s;
+}
+
+.news a{
+  text-decoration: none;
+}
 
 .news h2{
   padding: 50px 70px 0px 37px;
+  align-self: center;
 
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 50px;
-  line-height: 75px;
+  font-size: 2em;
+  line-height: 100%;
 
   color: var(--textcolor);
 }
