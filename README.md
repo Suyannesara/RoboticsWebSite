@@ -6,7 +6,10 @@
 </h4> 
 <br>
 <h4 align="center">
- 🚧⚠️ Project status: Developing🔨
+ ⚠️Created to run only in brwsers
+</h4> 
+<h4 align="center">
+ 🚧Project status: Developing🔨
 </h4> 
 <h4 align="center">
   ❗Check the deploy prototype on: <a href="https://suyannesara.github.io/RoboticsWebSite/">https://suyannesara.github.io/RoboticsWebSite/</a>
