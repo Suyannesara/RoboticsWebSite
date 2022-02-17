@@ -14,11 +14,22 @@
 
 > ## CAP1 - The Problem
 > <p>The Robotic's project has been in place for 6 years at SESI DF schools in the region. Inside it, students are engaged to building robots, carrying out research projects and even building miniature formula 1 cars. <br>
-> However, the enrollment process for students interested in joining the teams is not automated and depends on external servers. Considering this problem and understanding that teams also need a means of advertising to acquire sponsorships, the Robotics SESI website was created as a possible solution.</p>
+> However, the enrollment process for students interested in joining the teams is not automated and depends on external servers. Considering this problem and understanding that teams also need a means of advertising to acquire sponsorships, the Robotics SESI website was created as a possible solution.</p> 
+<br>
 
 ## CAP2 - How to start the project
 1. Install <a href="https://www.apachefriends.org/pt_br/index.html">XAMP</a> on your machine
-2. 
+2. Open XAMP on your PC and start MySQL and Apache <br> 
+<img align="left" alt="Start servers" src="./Images/xampgif.gif">
+<br> <br>
+
+```bash
+//Clone this repository
+$git clone https://github.com/Suyannesara/RoboticsWebSite.git
+```
+<br>
+
+
 
 
 > ## CAP2 - Features
