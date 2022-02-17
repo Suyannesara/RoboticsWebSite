@@ -19,21 +19,22 @@
 
 <h2 align="center" id="the-problem">CAP1 - The Problem</h2>
 
-> <h3>The Robotic's project has been runnig since 2016 at SESI DF schools in the region. Inside it, students are engaged to build robots, carry out research projects and even build miniatures of formula 1 cars. <br>
-> However, the enrollment process for students interested in joining the teams is not automated and depends on external servers. Considering this problem and understanding that teams also need a way of advertising to acquire sponsorships, the Robotics SESI website was created as a possible solution.</h3> 
+> <h4>The Robotic's project has been runnig since 2016 at SESI DF schools in the region. Inside it, students are engaged to build robots, carry out research projects and even build miniatures of formula 1 cars. <br>
+> However, the enrollment process for students interested in joining the teams is not automated and depends on external servers. Considering this problem and understanding that teams also need a way of advertising to acquire sponsorships, the Robotics SESI website was created as a possible solution.</h4> 
 <br>
 
 <h2 align="center" id="start-project">CAP2 - How to start this project on your machine</h2>
-1. Install <a href="https://www.apachefriends.org/pt_br/index.html">XAMP</a> on your machine
-2. Open XAMP on your PC and start MySQL and Apache <br> 
- <img width="400px" alt="Start servers" src="./Images/xampgif.gif">
- <br>
-3. Clone this repository
-  ```bash
-  //Clone
-    $git clone https://github.com/Suyannesara/RoboticsWebSite.git
+  1. Install <a href="https://www.apachefriends.org/pt_br/index.html">XAMP</a> on your machine <br>
+  2. Open XAMP on your PC and start MySQL and Apache <br> 
+  <img width="400px" alt="Start servers" src="./Images/xampgif.gif">
+  <br>
+  3. Clone this repository
+
+  ```bash 
+  $git clone https://github.com/Suyannesara/RoboticsWebSite.git 
   ```
-4. Insert all folders and files of the cloned repository into: ../xammp/htdocs
+  <br>
+4. Insert all folders and files of the cloned repository into: ../xammp/htdocs <br>
 5. Type "localhost" on your browser <br> <img width="400px" alt="Start servers" src="./Images/localhostgif.gif">
     
 <br>
