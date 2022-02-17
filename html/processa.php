@@ -21,9 +21,9 @@ VALUES ('$nome', '$wppnumber', '$email', '$vaga', '$dataNascimento', '$turma', '
 $resultado_inscritos = mysqli_query($conn, $result_inscritos);
 
 if (mysqli_insert_id($conn)){
-  header("Location: subscriptiondone.html");
+  header("Location: ./subscriptiondone.html");
 }else{
-  header("Location: form.html");
+  header("Location: ./form.html");
 }
 
 /*
