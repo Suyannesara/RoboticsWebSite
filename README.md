@@ -9,7 +9,7 @@
  ⚠️Created to run only in browsers
 </h4> 
 <h4 align="center">
- 🚧Project status: Developing🔨
+ ✅Project status: Done but open to improvment📈
 </h4> 
 <h4 align="center">
   ❗Check the deploy prototype on: <a href="https://suyannesara.github.io/RoboticsWebSite/">https://suyannesara.github.io/RoboticsWebSite/</a>
